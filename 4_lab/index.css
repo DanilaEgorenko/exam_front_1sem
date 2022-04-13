@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+}
+
+.menu {
+    position: absolute;
+    top: 40px;
+    right: 110px;
+    list-style: none;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 78px;
+    color: #373636;
+    font-weight: 400;
+    font-family: "Karla";
+}
+
+.menu li {
+    margin: 0 50px;
+    display: inline-block;
+}
+
+.menu li:nth-child(2) {
+    font-weight: bold;
+}
+
+.gallery {
+    position: absolute;
+    top: 220px;
+    height: 1160px;
+    width: 100%;
+    background-image: url('./Gallery.png');
+    background-position: top;
+    background-size: 110%;
+}
+
+.expand {
+    position: absolute;
+    top: 1380px;
+    width: 100%;
+    text-align: center;
+    margin: 80px 0;
+    font-size: 32px;
+    letter-spacing: 2px;
+    line-height: 114px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Karla";
+}
+
+.whatIDo {
+    position: absolute;
+    top: 1700px;
+}
+
+.first {
+    height: 150px;
+}
+
+.first h2 {
+    float: left;
+    font-size: 77px;
+    letter-spacing: 2px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Karla";
+    margin-left: 124px;
+    width: 50%;
+    text-align: center;
+}
+
+.first p {
+    float: right;
+    margin-left: 470px;
+}
+
+.wid__img {
+    height: 450px;
+    width: 1090px;
+    background-image: url(./Gallery.png);
+    background-position: 20% 60%;
+    margin-left: 124px;
+}
+
+.second {
+    position: relative;
+}
+
+.third {
+    width: 50%;
+    margin-left: 124px;
+    text-align: center;
+}
+
+.third h3 {
+    margin: 25px 0;
+}
+
+._1 {
+    margin-left: 900px;
+    width: 55px;
+    height: 280px;
+    background-image: url(./1.png);
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: 40px;
+}
+
+.second>ul {
+    position: absolute;
+    top: 35px;
+    right: 40px;
+    list-style: none;
+}
+
+.second>ul>li {
+    margin: -55px 0;
+    font-size: 22px;
+    letter-spacing: 2px;
+    line-height: 139px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Karla";
+}
+
+.second>ul>li:nth-child(2) {
+    font-weight: bold;
+}
+
+.about {
+    position: absolute;
+    top: 2500px;
+}
+
+.about .img {
+    background-image: url(./Gallery.png);
+    background-size: 380%;
+    height: 790px;
+    width: 660px;
+    background-position: 20% 100%;
+    margin-left: 124px;
+    float: left;
+}
+
+.about__text {
+    float: right;
+    text-align: center;
+    margin-left: 240px;
+}
+
+.about__text h2 {
+    font-size: 77px;
+    letter-spacing: 2px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Karla";
+}
+
+.about__text p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Open Sans";
+}
+
+footer {
+    position: absolute;
+    top: 3400px;
+    margin-left: 40px;
+    width: 100%;
+}
+
+footer h2 {
+    font-size: 77px;
+    letter-spacing: 2px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Karla";
+    text-align: center;
+    width: 50%;
+}
+
+.address__container>address:nth-child(1) {
+    float: left;
+    margin-right: 120px;
+}
+
+address span,
+address h3 {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Open Sans";
+}
+
+form {
+    position: absolute;
+    right: 400px;
+    top: 80px;
+    width: 20%;
+}
+
+form label,
+form input,
+form button {
+    display: block;
+}
+
+form label {
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 78px;
+    color: #000000;
+    font-family: "Myriad Pro";
+}
+
+form input,
+form textarea,
+form button {
+    background-color: #e9e4e4;
+    border: 0;
+    width: 100%;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer h3 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 78px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Karla";
+}
+
+footer h3:nth-last-child(1) {
+    margin: 80px 0;
+    margin-left: 165px;
+}
